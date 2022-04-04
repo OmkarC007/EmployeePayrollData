@@ -1,4 +1,4 @@
-class EmployeeData{
+class EmployeePayrollData{
     id;
     salary;
 
@@ -16,7 +16,7 @@ class EmployeeData{
     }
 }
 
-let employeePayrollData = new EmployeeData(1,"Mark",30000)
+let employeePayrollData = new EmployeePayrollData(1,"Mark",30000)
 console.log(employeePayrollData.toString());
 employeePayrollData.name = "john"
 console.log(employeePayrollData.toString());

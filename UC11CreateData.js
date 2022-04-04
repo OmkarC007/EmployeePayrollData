@@ -19,4 +19,4 @@ class EmployeeData{
 let employeePayrollData = new EmployeeData(1,"Mark",30000)
 console.log(employeePayrollData.toString());
 employeePayrollData.name = "john"
-console.log(employeePayrollData.toString());
+console.log(employeePayrollData.toString()); 
